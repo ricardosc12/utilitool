@@ -30,7 +30,7 @@ export default function Root() {
         {/* <Meta></Meta> */}
       </Head>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9580106986509970"
-            crossorigin="anonymous"></script>
+          crossorigin="anonymous"></script>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap');
       </style>
@@ -45,6 +45,9 @@ export default function Root() {
         </Suspense>
         <Scripts />
       </Body>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
     </Html>
   );
 }
