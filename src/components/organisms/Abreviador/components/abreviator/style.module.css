@@ -1,10 +1,13 @@
 .root_abreviator {
     display: flex;
     flex-direction: column;
+    min-width: 30px;
 }
 
 .root_abreviator > div > textarea {
     all: unset;
+    width: 85vw;
+    max-width: 800px;
     border-radius: 5px;
     font-family: Inter;
     font-weight: 400;
@@ -15,7 +18,7 @@
 }
 
 .root_abreviator > div > textarea.disable {
-    color: rgb(122, 122, 126);
+    color: rgb(78, 78, 82);
 }
 
 .sem_texto {
@@ -33,10 +36,6 @@
     margin-bottom: 10px;
 }
 
-.result_text > span {
-    color: rgb(122, 122, 126);
-}
-
 .result_text {
     display: flex;
     position: relative;
@@ -51,7 +50,7 @@
 }
 
 .result_text.disable {
-    color: rgb(122, 122, 126);
+    color: rgb(78, 78, 82);
 }
 
 .copy_area {
