@@ -34,6 +34,9 @@ export default function Root() {
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap');
       </style>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
       <Body style="background: linear-gradient(to right bottom, #141115 50%, #0b0a0c);">
         <Suspense>
           <ErrorBoundary>
@@ -45,9 +48,7 @@ export default function Root() {
         </Suspense>
         <Scripts />
       </Body>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+
     </Html>
   );
 }
