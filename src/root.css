@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+* {
+    font-family: Inter;
+}
+
+.btn-base {
+    display: flex;
+    padding: 3px 14px;
+    border-radius: 5px;
+    background-color: #753af2;
+    color: aliceblue;
+}
+
+.btn-base:hover {
+    background-color: #804bf3;
+}
+
+.btn-rounded {
+    display: flex;
+    padding: 5px 5px;
+    border-radius: 1000px;
+    background-color: #753af2;
+    color: aliceblue;
+}

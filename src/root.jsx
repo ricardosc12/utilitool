@@ -24,15 +24,18 @@ export default function Root() {
   return (
     <Html lang="en">
       <Head>
-        <Title>Abreviador de nomes</Title>
+        <Title>UtiliTool</Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <Meta></Meta> */}
       </Head>
-      <Body>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap');
+      </style>
+      <Body style="background: linear-gradient(to right bottom, #141115 50%, #0b0a0c);">
         <Suspense>
           <ErrorBoundary>
-            {/* <Sidebar/> */}
+            <Sidebar/>
             <Routes>
               <FileRoutes />
             </Routes>

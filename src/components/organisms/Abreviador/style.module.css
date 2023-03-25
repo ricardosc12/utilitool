@@ -1,7 +1,9 @@
 .root_abrev {
     display: flex;
+    flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 50px);
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to right bottom, #141115 50%, #0b0a0c);
 }

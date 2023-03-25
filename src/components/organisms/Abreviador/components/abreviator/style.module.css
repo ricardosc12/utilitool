@@ -1,0 +1,66 @@
+.root_abreviator {
+    display: flex;
+    flex-direction: column;
+}
+
+.root_abreviator > div > textarea {
+    all: unset;
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    padding: 10px;
+    color: rgb(11, 10, 14);
+    background-color: rgb(233, 236, 245);
+    margin-bottom: 10px;
+}
+
+.root_abreviator > div > textarea.disable {
+    color: rgb(122, 122, 126);
+}
+
+.sem_texto {
+    /* all: unset; */
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    padding: 10px;
+    color: rgb(122, 122, 126);
+    background-color: rgb(233, 236, 245);
+    margin-bottom: 10px;
+}
+
+.result_text > span {
+    color: rgb(122, 122, 126);
+}
+
+.result_text {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    min-height: 44px;
+    padding: 10px;
+    color: rgb(11, 10, 14);
+    background-color: rgb(233, 236, 245);
+}
+
+.result_text.disable {
+    color: rgb(122, 122, 126);
+}
+
+.copy_area {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.copy_area {
+
+}

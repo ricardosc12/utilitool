@@ -8,7 +8,7 @@ export default function Sidebar() {
                 <A href="/">Home</A>
             </li>
             <li class={`border-b-2 mx-1.5 sm:mx-6`}>
-                <A href="/about">About</A>
+                <A href="/abreviador">Abreviador</A>
             </li>
             </ul>
       </nav>
